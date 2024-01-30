@@ -9,12 +9,14 @@ import HeaderSocials from './HeaderSocials'
 
     <header>
       <div className="container header__container">
+        <div className="info">
         <h5>Hello i'm</h5>
         <h1>Ritu Jadhav</h1>
         <h5 className="text-light">
           FullStack Developer
         </h5>
         <CTA/>
+        </div>
         <HeaderSocials/>
         <div className="me">
           <img src={ME} alt="me" />
